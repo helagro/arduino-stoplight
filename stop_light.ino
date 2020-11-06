@@ -20,6 +20,7 @@ void loop() {
     } 
 }
 
+//turns on and of
 void light(int pin){
    digitalWrite(pin, HIGH);
    randomNum = randomom(1000, 8000);
